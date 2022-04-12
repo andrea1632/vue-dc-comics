@@ -54,7 +54,7 @@ span{
 }
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px 0;
 }
 </style>

@@ -7,10 +7,17 @@
     <div class="hero">
       <HeroComp/>
     </div>
+    <div class="bgMain">
+      <div class="main">
+      <MainComp/>
+      <div class="photoContainer"></div>
+    </div>
+    </div>
   </div>
 </template>
 
 <script>
+import MainComp from './components/MainComp.vue'
 import HeroComp from './components/HeroComp.vue'
 import ContentComp from './components/ContentComp.vue'
 import HeaderComp from './components/HeaderComp.vue'
@@ -20,6 +27,7 @@ export default {
     HeaderComp,
     ContentComp,
     HeroComp,
+    MainComp,
   }
 }
 </script>
@@ -43,5 +51,24 @@ export default {
 }
 .hero{
   background-color: #0282F9;
+}
+.bgMain{
+  background-image: url('assets/img/footer-bg.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.main{
+  display: flex;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  .photoContainer{
+    background-image: url('assets/img/dc-logo-bg.png');
+    height: 100%;
+    width: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 </style>

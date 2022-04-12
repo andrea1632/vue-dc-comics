@@ -69,7 +69,7 @@ export default{
 
 </script>
 
-<style scooped>
+<style scoped>
     li{
         list-style: none;
         margin: 0 10px;
