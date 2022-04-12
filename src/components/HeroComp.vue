@@ -51,10 +51,13 @@ span{
     color: white;
     text-transform: uppercase;
     font-size: 0.8em;
+    min-width: 200px;
 }
 .container{
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
+    width: 80%;
+    margin: 0 auto;
 }
 </style>
