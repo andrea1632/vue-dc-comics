@@ -4,11 +4,14 @@
     <div class="content">
       <ContentComp/>
     </div>
+    <div class="hero">
+      <HeroComp/>
+    </div>
   </div>
 </template>
 
 <script>
-
+import HeroComp from './components/HeroComp.vue'
 import ContentComp from './components/ContentComp.vue'
 import HeaderComp from './components/HeaderComp.vue'
 export default {
@@ -16,6 +19,7 @@ export default {
   components: {
     HeaderComp,
     ContentComp,
+    HeroComp,
   }
 }
 </script>
@@ -36,5 +40,8 @@ export default {
 }
 .content{
   background-color: black;
+}
+.hero{
+  background-color: #0282F9;
 }
 </style>
