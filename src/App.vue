@@ -13,10 +13,14 @@
       <div class="photoContainer"></div>
     </div>
     </div>
+    <div class="footer">
+      <FooterComp/>
+    </div>
   </div>
 </template>
 
 <script>
+import FooterComp from './components/FooterComp.vue'
 import MainComp from './components/MainComp.vue'
 import HeroComp from './components/HeroComp.vue'
 import ContentComp from './components/ContentComp.vue'
@@ -28,6 +32,7 @@ export default {
     ContentComp,
     HeroComp,
     MainComp,
+    FooterComp,
   }
 }
 </script>
@@ -70,5 +75,8 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
   }
+}
+.footer{
+  background-color: #303030;
 }
 </style>
