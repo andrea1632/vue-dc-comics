@@ -79,14 +79,14 @@ export default{
         display: flex;
         width: 80%;
         margin: 0 auto;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     a{
         text-transform: uppercase;
         text-decoration: none;
         color: black;
         font-weight: 600;
-        padding-bottom: 30px;
+        padding-bottom: 42px;
     }
     ul{
         display: flex;
