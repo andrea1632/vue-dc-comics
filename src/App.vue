@@ -51,9 +51,9 @@ export default {
   border-bottom: 30px solid black;
   padding-top: 10px;
 }
-.content{
-  background-color: black;
-}
+//.content{
+//  background-color: black;
+//}
 .hero{
   background-color: #0282F9;
 }

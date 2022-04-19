@@ -1,26 +1,30 @@
 <template>
     <div class="container">
-        <h3>
-            --&#62;
-            Content Goes Here
-            &#60;--
-        </h3>
+        <HeroContent/>
+        <div>
+            <span class="currentSeries">
+                <strong>current series</strong>
+            </span>
+        </div>
     </div>
 </template>
 
-<script> 
+<script>
+import HeroContent from './HeroContent.vue'
 export default{
     name: 'ContentComp',
+    components: {
+        HeroContent,
+    }, 
 }
 </script>
 
 <style scoped>
-    .container{
-        width: 80%;
-        margin: 0 auto;
-        padding: 30px 0;
-    }
-    h3{
+    .currentSeries{
+        background-color: #0282F9;
+        padding: 20px;
         color: white;
+        text-transform: uppercase;
+        border: 1 px solid red;
     }
 </style>
