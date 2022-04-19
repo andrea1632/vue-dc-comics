@@ -14,23 +14,23 @@ export default{
         return{
             imageList:[
                 {
-                    'url': 'img/buy-comics-digital-comics.png',
+                    'url': require('../assets/img/buy-comics-digital-comics.png'), 
                     'name': 'digital comics',
                 },
                 {
-                    'url': 'img/buy-comics-merchandise.png',
+                    'url': require('../assets/img/buy-comics-merchandise.png'),
                     'name': 'dc merchandise',
                 },
                 {
-                    'url': 'img/buy-comics-shop-locator.png',
+                    'url': require('../assets/img/buy-comics-shop-locator.png'),
                     'name': 'comic shop locator'
                 },
                 {
-                    'url': 'img/buy-comics-subscriptions.png',
+                    'url': require('../assets/img/buy-comics-subscriptions.png'),
                     'name': 'subscriptions'
                 },
                 {
-                    'url': 'img/buy-dc-power-visa.svg',
+                    'url': require('../assets/img/buy-dc-power-visa.svg'),
                     'name': 'dc power visa'
                 }
         ]

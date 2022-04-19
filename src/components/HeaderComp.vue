@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div>
-            <img src="img/dc-logo.png" alt="">
+            <img :src="require('../assets/img/dc-logo.png')" alt="">
         </div>
         <ul>
             <li v-for="(elm, index) in headerList" :key="index">
